@@ -39,6 +39,9 @@ brew install --formula --display-times --require-sha signal
 echo "QBittorent is being installed"
 brew install --formula --display-times --require-sha qbittorrent
 
+echo "All done, enjoy your software :)"
+exit 0
+
 else
  echo "Homebrew isn't install, please install it so we can continue"
   exit 1
